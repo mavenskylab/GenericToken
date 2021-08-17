@@ -6,7 +6,7 @@ import "./token/BEP20/BEP20.sol";
 import "./math/SafeMath.sol";
 import "./utils/Address.sol";
 
-contract LanaCakeToken is BEP20 {
+contract GenericToken is BEP20 {
     using SafeMath for uint256;
     using Address for address;
 
